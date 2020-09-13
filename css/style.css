@@ -1,0 +1,88 @@
+body{
+   background-color: d#f4f4f4;   
+   color: darkgreen;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+   line-height:1.5em;
+      
+}
+button{
+    color: chartreuse;
+    background: cornflowerblue;
+}
+button:hover{color: darkorange;
+    background-color: crimson;
+}
+button:active{
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    /*background-color: dimgray;*/
+    
+}
+ 
+a:hover{
+    color: darkturquoise;
+    background-color: dodgerblue;
+   
+}
+
+
+
+.list li
+{
+    list-style-image: url(/pic/ic8\ \(1\).png) ;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+.box1{
+    background-color: #777;
+    color: blue;
+    border: solid 15px blue;
+    padding: 50px;
+    margin: 80px;
+    width: 200px;
+    padding: 50px;
+    box-sizing:content-box
+}
+
+.box1 h1{
+    text-decoration: underline;
+    text-transform:capitalize;
+    
+    
+
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.block{
+    float: left;
+   width: 33.3%;
+   border: 1px solid slateblue;
+   padding-left: 10px;
+   box-sizing: border-box;
+
+}
+#d{
+    position: fixed;
+    right:5px;
+    bottom: 200px;
+}
+    
+  
